@@ -10,7 +10,7 @@ const NavbarItem = ({ title, param }) => {
     <div>
       <Link
         href={`/?genre=${param}`}
-        className={`hover:text-amber-600 font-semibold ${
+        className={`hover:text-amber-900 font-semibold ${
           genre === param
             ? "underline underline-offset-8 decoration-4 decoration-amber-700 rounded-lg"
             : ""
