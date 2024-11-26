@@ -6,6 +6,7 @@ import { useEffect } from "react";
 const error = ({ error, reset }) => {
   console.log(error);
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     console.log(error);
   }, [error]);
